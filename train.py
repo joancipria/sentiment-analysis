@@ -36,7 +36,7 @@ def compute_metrics(eval_pred):
 
 from transformers import TrainingArguments, Trainer
  
-training_args = TrainingArguments(output_dir="trainer", evaluation_strategy="epoch", num_train_epochs=1)
+training_args = TrainingArguments(output_dir="trainer", evaluation_strategy="epoch", num_train_epochs=10)
  
  
 trainer = Trainer(
