@@ -2,7 +2,7 @@
 from transformers import AutoTokenizer
 from transformers import AutoModelForSequenceClassification
  
-load_model = AutoModelForSequenceClassification.from_pretrained("CustomModels/FineTunedEmoEvent")
+load_model = AutoModelForSequenceClassification.from_pretrained("models/FineTunedEmoEvent")
  
 load_tokenizer = AutoTokenizer.from_pretrained("models/FineTunedEmoEvent")
 
