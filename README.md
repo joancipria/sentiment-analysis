@@ -1,5 +1,5 @@
 # Sentiment Analysis
-Fine-tuned [spanish RoBERTa-base BNE model](https://github.com/PlanTL-GOB-ES/lm-spanish) with [EmoEvent dataset](https://github.com/fmplaza/EmoEvent). A project for [VIHrtual-App](https://github.com/joancipria/VihrtualApp) chatbot.
+Fine-tuned [spanish language models](https://github.com/PlanTL-GOB-ES/lm-spanish) with [EmoEvent dataset](https://github.com/fmplaza/EmoEvent). A project for [VIHrtual-App](https://github.com/joancipria/VihrtualApp) chatbot.
 
 
 
