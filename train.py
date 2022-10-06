@@ -1,16 +1,9 @@
-#!pip install transformers
-#!pip install datasets
-#!pip install numpy
-#!pip install pandas
-#!pip install torch
-#!pip install sklearn
-
+# Load EmoEvent dataset
 from datasets import load_dataset
 
 dataset = load_dataset("EmoEvent", use_auth_token=True)
 
-dataset
-
+# Tokenize dataset
 from transformers import AutoTokenizer
 
 tokenizer = AutoTokenizer.from_pretrained("PlanTL-GOB-ES/roberta-base-bne")
@@ -20,10 +13,12 @@ def tokenize_function(examples):
  
 tokenized_datasets = dataset.map(tokenize_function, batched=True)
 
+# Load pretrained model
 from transformers import AutoModelForSequenceClassification
 checkpoint = "PlanTL-GOB-ES/roberta-base-bne"
 model = AutoModelForSequenceClassification.from_pretrained(checkpoint, num_labels=7)
 
+# Define evaluation metrics
 import numpy as np
 from datasets import load_metric
  
@@ -34,6 +29,8 @@ def compute_metrics(eval_pred):
     predictions = np.argmax(logits, axis=-1)
     return metric.compute(predictions=predictions, references=labels)
 
+
+# Create trainer
 from transformers import TrainingArguments, Trainer
  
 training_args = TrainingArguments(output_dir="trainer", evaluation_strategy="epoch", num_train_epochs=10)
@@ -46,12 +43,12 @@ trainer = Trainer(
     eval_dataset=tokenized_datasets["test"],
     compute_metrics=compute_metrics,
 )
- 
+
+# Train 
 trainer.train()
 
+# Save model
 model.save_pretrained("models/FineTunedEmoEvent")
- 
 # alternatively save the trainer
 # trainer.save_model("models/FineTunedEmoEvent")
- 
 tokenizer.save_pretrained("models/FineTunedEmoEvent")
