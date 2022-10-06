@@ -6,8 +6,10 @@ load_model = AutoModelForSequenceClassification.from_pretrained("models/FineTune
  
 load_tokenizer = AutoTokenizer.from_pretrained("models/FineTunedEmoEvent")
 
+# Setup pipeline
 from transformers import pipeline
 my_pipeline  = pipeline("sentiment-analysis", model=load_model, tokenizer=load_tokenizer)
-data = ["estoy muy disgustado"]
- 
-print(my_pipeline(data))
+
+# Predict sentiment for the following text
+text = ["estoy muy disgustado"] 
+print(my_pipeline(text))
