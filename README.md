@@ -20,7 +20,7 @@ Fine-tuned [spanish language models](https://github.com/PlanTL-GOB-ES/lm-spanish
 See more details at [metrics docs](./docs/Metrics.md).
 
 ## ⚗️ Usage example
-```
+```python
 from transformers import pipeline
 from transformers import AutoModelForSequenceClassification
 from transformers import AutoTokenizer
