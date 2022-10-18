@@ -4,6 +4,7 @@ Fine-tuned [spanish language models](https://github.com/PlanTL-GOB-ES/lm-spanish
 ## 🤖 Models
 - [RoBERTa-base-BNE-FineTunedEmovent](https://huggingface.co/joancipria/roberta-base-bne-FineTunedEmoEvent)
 - [RoBERTa-large-BNE-FineTunedEmovent](https://huggingface.co/joancipria/roberta-large-bne-FineTunedEmoEvent)
+- [RoBERTa-base-biomedical-es-FineTunedEmovent](https://huggingface.co/joancipria/roberta-base-biomedical-es-FineTunedEmoEvent)
 - [GPT2-base-BNE-FineTunedEmovent](https://huggingface.co/joancipria/gpt2-base-bne-FineTunedEmoEvent)
 - [GPT2-large-BNE-FineTunedEmovent](https://huggingface.co/joancipria/gpt2-large-bne-FineTunedEmoEvent)
 
@@ -14,6 +15,7 @@ Fine-tuned [spanish language models](https://github.com/PlanTL-GOB-ES/lm-spanish
 |--------------|----------|------------|
 | [RoBERTa-base-BNE-FineTunedEmovent](https://huggingface.co/joancipria/roberta-base-bne-FineTunedEmoEvent)        | 0.3464       |     0.3617 |
 | [RoBERTa-large-BNE-FineTunedEmovent](https://huggingface.co/joancipria/roberta-large-bne-FineTunedEmoEvent)  | 0.3240       | 0.4915     |
+| [RoBERTa-base-biomedical-es-FineTunedEmovent](https://huggingface.co/joancipria/roberta-base-biomedical-es-FineTunedEmoEvent)  | 0.3388       | 0.3436     |
 | [GPT2-base-BNE-FineTunedEmovent](https://huggingface.co/joancipria/gpt2-base-bne-FineTunedEmoEvent) | 0.3410       |     0.3593 |
 | [GPT2-large-BNE-FineTunedEmovent](https://huggingface.co/joancipria/gpt2-large-bne-FineTunedEmoEvent)       | 0.3475       |    0.3665 |
 
