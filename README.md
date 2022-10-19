@@ -63,3 +63,16 @@ pip install -r requirements.txt
 Run `python train.py` to fine-tune the models.
 Edit and run `python predict.py` to test recognition.
 Edit and run `python eval.py` to evaluate a model.
+
+## 📝 Cite
+To cite this resource in a publication, please use the following:
+
+```
+@inproceedings{moreno2022conversational,
+  title={A Conversational Agent for Medical Disclosure of Sexually Transmitted Infections},
+  author={Moreno, Joan C and S{\'a}nchez-Anguix, Victor and Alberola, Juan M and Juli{\'a}n, Vicente and Botti, Vicent},
+  booktitle={International Conference on Hybrid Artificial Intelligence Systems},
+  pages={431--442},
+  year={2022},
+  organization={Springer}
+}
