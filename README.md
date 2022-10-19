@@ -76,3 +76,7 @@ To cite this resource in a publication, please use the following:
   year={2022},
   organization={Springer}
 }
+```
+
+## 📜 License
+Licensed under GNU General Public License v3. 
