@@ -3,7 +3,7 @@ Fine-tuned [spanish language models](https://github.com/PlanTL-GOB-ES/lm-spanish
 
 ## 🤖 Models
 - [RoBERTa-base-BNE-FineTunedEmovent](https://huggingface.co/joancipria/roberta-base-bne-FineTunedEmoEvent)
-- [RoBERTa-large-BNE-FineTunedEmovent](https://huggingface.co/joancipria/roberta-large-bne-FineTunedEmoEvent)
+- [RoBERTa-large-BNE-FineTunedEmovent](https://huggingface.co/joancipria/gpt2-base-bne-FineTunedEmoEvent)
 - [RoBERTa-base-biomedical-es-FineTunedEmovent](https://huggingface.co/joancipria/roberta-base-biomedical-es-FineTunedEmoEvent)
 - [GPT2-base-BNE-FineTunedEmovent](https://huggingface.co/joancipria/gpt2-base-bne-FineTunedEmoEvent)
 - [GPT2-large-BNE-FineTunedEmovent](https://huggingface.co/joancipria/gpt2-large-bne-FineTunedEmoEvent)
@@ -14,7 +14,7 @@ Fine-tuned [spanish language models](https://github.com/PlanTL-GOB-ES/lm-spanish
 | Model      | F1   |  Accuracy  |
 |--------------|----------|------------|
 | [RoBERTa-base-BNE-FineTunedEmovent](https://huggingface.co/joancipria/roberta-base-bne-FineTunedEmoEvent)        | 0.3464       |     0.3617 |
-| [RoBERTa-large-BNE-FineTunedEmovent](https://huggingface.co/joancipria/roberta-large-bne-FineTunedEmoEvent)  | 0.3240       | 0.4915     |
+| [RoBERTa-large-BNE-FineTunedEmovent](https://huggingface.co/joancipria/gpt2-base-bne-FineTunedEmoEvent)  | 0.3240       | 0.4915     |
 | [RoBERTa-base-biomedical-es-FineTunedEmovent](https://huggingface.co/joancipria/roberta-base-biomedical-es-FineTunedEmoEvent)  | 0.3388       | 0.3436     |
 | [GPT2-base-BNE-FineTunedEmovent](https://huggingface.co/joancipria/gpt2-base-bne-FineTunedEmoEvent) | 0.3410       |     0.3593 |
 | [GPT2-large-BNE-FineTunedEmovent](https://huggingface.co/joancipria/gpt2-large-bne-FineTunedEmoEvent)       | 0.3475       |    0.3665 |
@@ -28,15 +28,15 @@ from transformers import AutoModelForSequenceClassification
 from transformers import AutoTokenizer
 
 # Load the model
-load_model = AutoModelForSequenceClassification.from_pretrained("joancipria/roberta-large-bne-FineTunedEmoEvent")
+load_model = AutoModelForSequenceClassification.from_pretrained("joancipria/gpt2-base-bne-FineTunedEmoEvent")
 
-load_tokenizer = AutoTokenizer.from_pretrained("joancipria/roberta-large-bne-FineTunedEmoEvent")
+load_tokenizer = AutoTokenizer.from_pretrained("joancipria/gpt2-base-bne-FineTunedEmoEvent")
 
 # Setup pipeline
 my_pipeline = pipeline("sentiment-analysis", model=load_model, tokenizer=load_tokenizer)
 
 # Predict sentiment for the following text
-text = ["estoy muy disgustado"]
+text = ["me encuentro genial con la nueva medicación"]
 print(my_pipeline(text))
 ```
 
