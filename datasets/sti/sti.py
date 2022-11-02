@@ -45,8 +45,8 @@ _CLASS_NAMES = ["anger", "fear", "sadness", "joy", "disgust", "surprise", "other
 _HOMEPAGE = "https://github.com/joancipria/sentiment-analysis/blob/master/"
 
 _URLS = {
-    "es": "https://raw.githubusercontent.com/joancipria/sentiment-analysis/master/datasets/sti/splits/es",
-    "en": "https://raw.githubusercontent.com/joancipria/sentiment-analysis/master/datasets/sti/splits/en",
+    "es": "https://raw.githubusercontent.com/joancipria/sentiment-analysis/sti-dataset/datasets/sti/splits/es/",
+    "en": "https://raw.githubusercontent.com/joancipria/sentiment-analysis/sti-dataset/datasets/sti/splits/en/",
 }
 
 
@@ -90,7 +90,7 @@ class EmoEvent(datasets.GeneratorBasedBuilder):
         urls = _URLS[self.config.name]
         _TRAIN_DOWNLOAD_URL = os.path.join(urls, "train.tsv")
         _DEV_DOWNLOAD_URL = os.path.join(urls, "dev.tsv")
-        _TEST_DOWNLOAD_URL = os.path.join(urls, "test.csv")
+        _TEST_DOWNLOAD_URL = os.path.join(urls, "test.tsv")
 
         print(_TRAIN_DOWNLOAD_URL)
 
@@ -107,7 +107,7 @@ class EmoEvent(datasets.GeneratorBasedBuilder):
         """Generate AG News examples."""
         with open(filepath, encoding="utf-8") as csv_file:
             csv_reader = csv.reader(
-                csv_file, quotechar='"', delimiter=",", quoting=csv.QUOTE_ALL, skipinitialspace=True
+                csv_file, quotechar='"', delimiter="\t", quoting=csv.QUOTE_ALL, skipinitialspace=True
             )
             next(csv_reader)
             for id_, row in enumerate(csv_reader):
