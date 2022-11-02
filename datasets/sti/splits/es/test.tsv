@@ -1,0 +1,141 @@
+﻿id	event	tweet	offensive	emotion
+1	vihrtualapp	he pillado el puto vih	NO	anger
+2	vihrtualapp	me han pegado una puta ets	NO	anger
+3	vihrtualapp	menudo enfado llevo, creo que he pillado el vih	NO	anger
+4	vihrtualapp	he pillado una jodida ets!	NO	anger
+5	vihrtualapp	que rabia me da haberme infectado	NO	anger
+6	vihrtualapp	se me ha roto el puto condon	NO	anger
+7	vihrtualapp	no me dijo que tenia una maldita ets	NO	anger
+8	vihrtualapp	ya me podria haber avisado de que que tenia hongos!!	NO	anger
+9	vihrtualapp	el muy cabrón tenia hepatitis	YES	anger
+10	vihrtualapp	el muy gilipollas me ha pegao la gonorrea	YES	anger
+11	vihrtualapp	el subnormal va y no me dice que tenia clamidia	YES	anger
+12	vihrtualapp	el subnormal va y se quita el condón a mitad	YES	anger
+13	vihrtualapp	la muy hija de puta va y no me avisa de que le picaba el coño	NO	anger
+14	vihrtualapp	joder, he contraido el vih	NO	anger
+15	vihrtualapp	me cago en todo, he vuelto a pillar una ets	YES	anger
+16	vihrtualapp	me cago en su estampa, me lo ha pegado	YES	anger
+17	vihrtualapp	me cago en su puta madre, tenia gonorrea y no dijo nada	YES	anger
+18	vihrtualapp	joder he pillado una puta enfermedad venerea	NO	anger
+19	vihrtualapp	estoy hasta los huevos del vih	NO	anger
+20	vihrtualapp	hasta los cojones estoy de la nueva medicación	NO	anger
+21	vihrtualapp	temo que pueda haberme infectado de vih	NO	fear
+22	vihrtualapp	tengo miedo de haber pillado una ets	NO	fear
+23	vihrtualapp	me aterra haberme infectado	NO	fear
+24	vihrtualapp	me da miedo la nueva medicación	NO	fear
+25	vihrtualapp	me temo que la nueva medicación no esta funcionando	NO	fear
+26	vihrtualapp	tengo miedo de morir	NO	fear
+27	vihrtualapp	me aterra morirme	NO	fear
+28	vihrtualapp	estoy aterrorizado solo con la idea de infectarme	NO	fear
+29	vihrtualapp	que miedo me dan las ets	NO	fear
+30	vihrtualapp	miedo me da lo que pueda haber pillado	NO	fear
+31	vihrtualapp	me aterra la idea de la muerte	NO	fear
+32	vihrtualapp	tengo miedo de haber pasado a la fase del sida	NO	fear
+33	vihrtualapp	me da miedo que pueda tener clamidia	NO	fear
+34	vihrtualapp	me aterra follar sin condon	NO	fear
+35	vihrtualapp	me da miedo tener sexo sin protección	NO	fear
+36	vihrtualapp	tengo miedo de que se rompa el condon	NO	fear
+37	vihrtualapp	estoy asustada por si me he infectado	NO	fear
+38	vihrtualapp	me asusta que pueda haberme pegado el sida	NO	fear
+39	vihrtualapp	estoy asustado por si me ha pegado algo	NO	fear
+40	vihrtualapp	estoy asustado porque se nos rompió el condon	NO	fear
+41	vihrtualapp	estoy triste, me han detectado el vih	NO	sadness
+42	vihrtualapp	que tristeza mas grande, le han detectado sida	NO	sadness
+43	vihrtualapp	me entristece pensar en la gente que tiene sida	NO	sadness
+44	vihrtualapp	me entritece pensar que no voy a sobrevivir	NO	sadness
+45	vihrtualapp	estoy triste, creía que me darian el alta	NO	sadness
+46	vihrtualapp	que pena que ya no pueda follar sin condon	NO	sadness
+47	vihrtualapp	que pena me da que tenga que volver a medicarse	NO	sadness
+48	vihrtualapp	que pena me da la gente que vive con el vih	NO	sadness
+49	vihrtualapp	me apena pensar en la muerte	NO	sadness
+50	vihrtualapp	que pena que no haya funcionado el tratamiento!	NO	sadness
+51	vihrtualapp	estoy destrozado, me han detectado vih	NO	sadness
+52	vihrtualapp	estoy abatido, he contraido la hepatitis	NO	sadness
+53	vihrtualapp	estoy hecho polvo, me han detectado que tengo vih	NO	sadness
+54	vihrtualapp	que desconsuelo, a mi hijo le han diagnosticado el sida	NO	sadness
+55	vihrtualapp	estoy amargado con la nueva medicación	NO	sadness
+56	vihrtualapp	me tiene amargado el nuevo tratamiento	NO	sadness
+57	vihrtualapp	no tiene consuelo mi hijo, le han detectado el sida	NO	sadness
+58	vihrtualapp	menuda desgracia, me han diagnosticado una ets	NO	sadness
+59	vihrtualapp	me siento muy solo con mi enfermedad	NO	sadness
+60	vihrtualapp	que mal, a mi hermano le han diagnosticado sida	NO	sadness
+61	vihrtualapp	el tratamiento esta haciendo efecto!	NO	joy
+62	vihrtualapp	que guay, con la nueva medicación me siento mucho mejor	NO	joy
+63	vihrtualapp	que bien me siento con la nueva medicación	NO	joy
+64	vihrtualapp	que bien me esta sentando el tratamiento	NO	joy
+65	vihrtualapp	que alegría, por fin me dan el alta	NO	joy
+66	vihrtualapp	estoy muy contento con el nuevo tratamiento	NO	joy
+67	vihrtualapp	soy muy feliz ahora que he reducido mi carga viral a indetectable	NO	joy
+68	vihrtualapp	estoy muy contento ahora que mi carga viral es indetectable	NO	joy
+69	vihrtualapp	por fin, he conseguido reducir mi carga viral!	NO	joy
+70	vihrtualapp	que alegría me han dado al darme el alta	NO	joy
+71	vihrtualapp	estoy muy satisfecho con el tratamiento	NO	joy
+72	vihrtualapp	estoy contento de que el tratamiento no me cause ningún efecto secundario	NO	joy
+73	vihrtualapp	que satisfacción me da saber que no puedo infectar a nadie	NO	joy
+74	vihrtualapp	que satisfacción saber que no he contraido ninguna ets	NO	joy
+75	vihrtualapp	me alegro mucho de no haberme infectado	NO	joy
+76	vihrtualapp	menuda alegria me han dado al decirme que soy negativo	NO	joy
+77	vihrtualapp	estoy alegre porque por fin podré volver a disfrutar del sexo	NO	joy
+78	vihrtualapp	me alegra saber que hay gente que ha sonseguido llevar una vida normal	NO	joy
+79	vihrtualapp	estoy muy feliz de tener una carga indetectable	NO	joy
+80	vihrtualapp	muy feliz de no haberme infectado	NO	joy
+81	vihrtualapp	que asco me da haberme infectado	NO	disgust
+82	vihrtualapp	que puto asco me dan las pastillas	NO	disgust
+83	vihrtualapp	que asco me da tragarme las pastillas	NO	disgust
+84	vihrtualapp	menudo disgusto se llevó mi madre al enterarse de que tenía vih	NO	disgust
+85	vihrtualapp	que disgusto se llevaron mis padres al enterarse de que era seropositivo	NO	disgust
+86	vihrtualapp	no me gusta nada la nueva medicación	NO	disgust
+87	vihrtualapp	es indignante el poco conocimiento que hay sobre las ets	NO	disgust
+88	vihrtualapp	me ha salido una erupción repugnante en los genitales	NO	disgust
+89	vihrtualapp	que asco le tengo a la medicación	NO	disgust
+90	vihrtualapp	que asco me da la gente con sida	YES	disgust
+91	vihrtualapp	que disgusto mas grande me he llevado al saber que tenia vih	NO	disgust
+92	vihrtualapp	estoy algo disgustado por el diagnóstico	NO	disgust
+93	vihrtualapp	me repugna pensar en el sexo	NO	disgust
+94	vihrtualapp	me repugna pensar otra vez en follar	NO	disgust
+95	vihrtualapp	me dan mucho asco los homosexuales con sida	YES	disgust
+96	vihrtualapp	que asco le he cogido a tomarme las pastillas	NO	disgust
+97	vihrtualapp	estoy bastante asqueado ya tener que tomarme las pastillas	NO	disgust
+98	vihrtualapp	estoy un poco asqueado ya de tener que ir a las revisiones	NO	disgust
+99	vihrtualapp	me asquea un poco la idea de volver a tener sexo	NO	disgust
+100	vihrtualapp	estoy muy disgustado por haberme infectado	NO	disgust
+101	vihrtualapp	estoy sorprendido de lo bien que me esta yendo el tratameinto	NO	surprise
+102	vihrtualapp	me sorprende lo bien que esta funcionando la medicación	NO	surprise
+103	vihrtualapp	es sorprendente lo rapido que ha bajado mi carga viral	NO	surprise
+104	vihrtualapp	para mi sorpresa, todo el mundo me ha apoyado	NO	surprise
+105	vihrtualapp	estoy sorprendido por la cantidad de ets que se contraen	NO	surprise
+106	vihrtualapp	me sorprende que la gente no utilice protección	NO	surprise
+107	vihrtualapp	es sorprendente la cantidad de gente que no utiliza preservativo	NO	surprise
+108	vihrtualapp	es sorprendente cuanta gente tiene sida hoy en dia	NO	surprise
+109	vihrtualapp	eso es mucha gente infectada!	NO	surprise
+110	vihrtualapp	no sabia ese dato sobre el vih!	NO	surprise
+111	vihrtualapp	guau, desconocía que hubiese tanta gente con vih!	NO	surprise
+112	vihrtualapp	me sorprende que alguien no pueda saber que puedes infectarte	NO	surprise
+113	vihrtualapp	estoy sorprendido de cuanta gente desconoce la diferencia entre vih y sida	NO	surprise
+114	vihrtualapp	Coño, no sabía yo eso!	NO	surprise
+115	vihrtualapp	me pago en la puta, no sabía yo que el vih se podia transmitir así	NO	surprise
+116	vihrtualapp	no me esperaba tener que explicar a estas alturas que es el vih	NO	surprise
+117	vihrtualapp	De él no me lo esperaba, la verdad	NO	surprise
+118	vihrtualapp	menuda sorpresa me han dado al darme el alta	NO	surprise
+119	vihrtualapp	quien iba a imaginar que ella tenia sida	NO	surprise
+120	vihrtualapp	no esperaba que la medicación hiciese efecto tan rapido!	NO	surprise
+121	vihrtualapp	creo que puedo haberme infectado de vih	NO	others
+122	vihrtualapp	sospecho que he contraido una ets	NO	others
+123	vihrtualapp	no sé si hoy en dia se puede curar el sida	NO	others
+124	vihrtualapp	no se que es el vih	NO	others
+125	vihrtualapp	a saber cual es el origen del vih	NO	others
+126	vihrtualapp	no se si deberia contarle a mi pareja que me he infectado	NO	others
+127	vihrtualapp	no se si contarles a mis amigos que tengo vih	NO	others
+128	vihrtualapp	como pouedo saber si tengo vih?	NO	others
+129	vihrtualapp	como se transmite la hepatitis?	NO	others
+130	vihrtualapp	el sida se transmite por el aire?	NO	others
+131	vihrtualapp	no se si puedo compartir vasos con alguien que tiene sida	NO	others
+132	vihrtualapp	no se sia ctualmente existe algun tratamiento para el vih	NO	others
+133	vihrtualapp	que es una ets	NO	others
+134	vihrtualapp	como puedo comprobar si tengo vih	NO	others
+135	vihrtualapp	como puedo hacerme la prueba del vih	NO	others
+136	vihrtualapp	diferencia entre vih y sida	NO	others
+137	vihrtualapp	yo creía que el vih y el sida eran lo mismo	NO	others
+138	vihrtualapp	como puedo hacerme una prueba para saber si estoy infectado?	NO	others
+139	vihrtualapp	me gustaria saber que es exactamente la hepatitis	NO	others
+140	vihrtualapp	no sé muy bien como actua realmente el vih dentro del cuerpo	NO	others
