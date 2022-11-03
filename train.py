@@ -45,7 +45,13 @@ for PRE_TRAINED_MODEL in pre_trained_models:
     from transformers import TrainingArguments, Trainer
 
     training_args = TrainingArguments(
-        output_dir="trainer", evaluation_strategy="epoch", num_train_epochs=10)
+        output_dir="trainer", 
+        evaluation_strategy="epoch", 
+        num_train_epochs=5,
+        learning_rate=2e-5, # Default: 5e-5.  The initial learning rate for AdamW optimizer.
+        per_device_train_batch_size=16,
+        per_device_eval_batch_size=16,
+    )
 
     trainer = Trainer(
         model=model,
