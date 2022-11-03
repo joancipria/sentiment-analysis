@@ -59,7 +59,7 @@ Install requirements
 pip install -r requirements.txt
 ```
 
-### ▶️ Run
+## ▶️ Run
 Run `python train.py` to fine-tune the models.
 Edit and run `python predict.py` to test recognition.
 Edit and run `python eval.py` to evaluate a model.
