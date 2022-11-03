@@ -25,19 +25,18 @@ from datasets.tasks import TextClassification
 import datasets
 
 _DESCRIPTION = """\
-EmoEvent is a multilingual emotion dataset of tweets based on different events that took place in April 2019. 
-Three annotators labeled the tweets following the six Ekman’s basic emotion model (anger, fear, sadness, joy, disgust, surprise) plus the “neutral or other emotions” category.
+STI emotion dataset
 """
 
 _CITATION = """\
-@inproceedings{plaza-del-arco-etal-2020-emoevent, 
-title = "{{E}mo{E}vent: A Multilingual Emotion Corpus based on different Events}", 
-author = "{Plaza-del-Arco}, {Flor Miriam} and Strapparava, Carlo and {Ure{~n}a-L{\’o}pez}, L. Alfonso and {Mart{\’i}n-Valdivia}, M. Teresa", 
-booktitle = "Proceedings of the 12th Language Resources and Evaluation Conference", month = may, year = "2020", address = "Marseille, France", publisher = "European Language Resources Association", 
-url = "https://www.aclweb.org/anthology/2020.lrec-1.186", 
-pages = "1492--1498", 
-language = "English", 
-ISBN = "979-10-95546-34-4" }
+@inproceedings{moreno2022conversational,
+  title={A Conversational Agent for Medical Disclosure of Sexually Transmitted Infections},
+  author={Moreno, Joan C and S{\'a}nchez-Anguix, Victor and Alberola, Juan M and Juli{\'a}n, Vicente and Botti, Vicent},
+  booktitle={International Conference on Hybrid Artificial Intelligence Systems},
+  pages={431--442},
+  year={2022},
+  organization={Springer}
+}
 """
 
 _CLASS_NAMES = ["anger", "fear", "sadness", "joy", "disgust", "surprise", "others"]
