@@ -28,9 +28,9 @@ from transformers import AutoModelForSequenceClassification
 from transformers import AutoTokenizer
 
 # Load the model
-load_model = AutoModelForSequenceClassification.from_pretrained("joancipria/gpt2-base-bne-FineTunedEmoEvent")
+load_model = AutoModelForSequenceClassification.from_pretrained("joancipria/roberta-large-bne-FineTunedEmoEvent")
 
-load_tokenizer = AutoTokenizer.from_pretrained("joancipria/gpt2-base-bne-FineTunedEmoEvent")
+load_tokenizer = AutoTokenizer.from_pretrained("joancipria/roberta-large-bne-FineTunedEmoEvent")
 
 # Setup pipeline
 my_pipeline = pipeline("sentiment-analysis", model=load_model, tokenizer=load_tokenizer)
