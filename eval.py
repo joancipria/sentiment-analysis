@@ -9,8 +9,8 @@ from datasets import load_dataset
 FINE_TUNED_MODEL = "models/PlanTL-GOB-ES/roberta-large-bne-FineTunedEmoEvent"
 
 
-#
-dataset = load_dataset("datasets/EmoEvent", use_auth_token=True)
+# Perform evaluation with STI dataset
+dataset = load_dataset("datasets/sti", use_auth_token=True)
 
 
 tokenizer = AutoTokenizer.from_pretrained(FINE_TUNED_MODEL)
