@@ -3,7 +3,7 @@ Fine-tuned [spanish language models](https://github.com/PlanTL-GOB-ES/lm-spanish
 
 ## 🤖 Models
 - [RoBERTa-base-BNE-FineTunedEmovent](https://huggingface.co/joancipria/roberta-base-bne-FineTunedEmoEvent)
-- [RoBERTa-large-BNE-FineTunedEmovent](https://huggingface.co/joancipria/gpt2-base-bne-FineTunedEmoEvent)
+- [RoBERTa-large-BNE-FineTunedEmovent](https://huggingface.co/joancipria/roberta-large-bne-FineTunedEmoEvent)
 - [RoBERTa-base-biomedical-es-FineTunedEmovent](https://huggingface.co/joancipria/roberta-base-biomedical-es-FineTunedEmoEvent)
 - [GPT2-base-BNE-FineTunedEmovent](https://huggingface.co/joancipria/gpt2-base-bne-FineTunedEmoEvent)
 - [GPT2-large-BNE-FineTunedEmovent](https://huggingface.co/joancipria/gpt2-large-bne-FineTunedEmoEvent)
