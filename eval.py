@@ -10,7 +10,7 @@ FINE_TUNED_MODEL = "models/PlanTL-GOB-ES/roberta-large-bne-FineTunedEmoEvent"
 
 
 #
-dataset = load_dataset("EmoEvent", use_auth_token=True)
+dataset = load_dataset("datasets/EmoEvent", use_auth_token=True)
 
 
 tokenizer = AutoTokenizer.from_pretrained(FINE_TUNED_MODEL)

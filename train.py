@@ -1,7 +1,7 @@
 # Load EmoEvent dataset
 from datasets import load_dataset
 
-dataset = load_dataset("EmoEvent", use_auth_token=True)
+dataset = load_dataset("datasets/EmoEvent", use_auth_token=True)
 
 # List of spanish pre-trained models to fine-tune
 pre_trained_models = ["PlanTL-GOB-ES/roberta-base-bne", "PlanTL-GOB-ES/roberta-large-bne",
