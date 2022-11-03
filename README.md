@@ -1,5 +1,5 @@
 # Sentiment Analysis
-Fine-tuned [spanish language models](https://github.com/PlanTL-GOB-ES/lm-spanish) with [EmoEvent dataset](https://github.com/fmplaza/EmoEvent). A project for [VIHrtual-App](https://github.com/joancipria/VihrtualApp) chatbot.
+Fine-tuned [spanish language models](https://github.com/PlanTL-GOB-ES/lm-spanish) with [EmoEvent dataset](https://github.com/fmplaza/EmoEvent). A project for [VIHrtual-App](https://github.com/joancipria/VihrtualApp) chatbot to detect emotions in STI/HIV related conversations.
 
 ## 🤖 Models
 - [RoBERTa-base-BNE-FineTunedEmovent](https://huggingface.co/joancipria/roberta-base-bne-FineTunedEmoEvent)
@@ -13,13 +13,13 @@ Fine-tuned [spanish language models](https://github.com/PlanTL-GOB-ES/lm-spanish
 
 | Model      | F1   |  Accuracy  |
 |--------------|----------|------------|
-| [RoBERTa-base-BNE-FineTunedEmovent](https://huggingface.co/joancipria/roberta-base-bne-FineTunedEmoEvent)        | 0.3464       |     0.3617 |
-| [RoBERTa-large-BNE-FineTunedEmovent](https://huggingface.co/joancipria/gpt2-base-bne-FineTunedEmoEvent)  | 0.3240       | 0.4915     |
-| [RoBERTa-base-biomedical-es-FineTunedEmovent](https://huggingface.co/joancipria/roberta-base-biomedical-es-FineTunedEmoEvent)  | 0.3388       | 0.3436     |
-| [GPT2-base-BNE-FineTunedEmovent](https://huggingface.co/joancipria/gpt2-base-bne-FineTunedEmoEvent) | 0.3410       |     0.3593 |
-| [GPT2-large-BNE-FineTunedEmovent](https://huggingface.co/joancipria/gpt2-large-bne-FineTunedEmoEvent)       | 0.3475       |    0.3665 |
+| [RoBERTa-base-BNE-FineTunedEmovent](https://huggingface.co/joancipria/roberta-base-bne-FineTunedEmoEvent)        | 0.7089       |     0.7071 |
+| [RoBERTa-large-BNE-FineTunedEmovent](https://huggingface.co/joancipria/gpt2-base-bne-FineTunedEmoEvent)   | 0.7638 🔥       | 0.7714 🔥    |
+| [RoBERTa-base-biomedical-es-FineTunedEmovent](https://huggingface.co/joancipria/roberta-base-biomedical-es-FineTunedEmoEvent)  | 0.6909       | 0.7000     |
+| [GPT2-base-BNE-FineTunedEmovent](https://huggingface.co/joancipria/gpt2-base-bne-FineTunedEmoEvent) | 0.6256       |     0.6214 |
+| [GPT2-large-BNE-FineTunedEmovent](https://huggingface.co/joancipria/gpt2-large-bne-FineTunedEmoEvent)       | 0.4598       |    0.4857 |
 
-See more details at [metrics docs](./docs/Metrics.md).
+Evaluation performed with [STI dataset](./datasets/sti/splits/es/test.tsv). See more details at [metrics docs](./docs/Metrics.md).
 
 ## ⚗️ Usage example
 ```python
