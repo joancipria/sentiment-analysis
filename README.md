@@ -51,7 +51,7 @@ git clone https://github.com/joancipria/sentiment-analysis && cd sentiment-analy
 
 Create virtual environment
 ```
-python -m venv ./venv & source ./venv/bin/activate
+python -m venv ./venv && source ./venv/bin/activate
 ```
 
 Install requirements
